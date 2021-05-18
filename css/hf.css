@@ -92,12 +92,12 @@ li a:hover {
     margin: 10px;
     width: 35px;
     height: 35px;
-    border: 1px solid #fffefa;
+    border: 1.5px solid #fffefa;
     transition: 1s;
 }
 .icon:hover{
     color: #cab342;
-    border: 1px solid #cab342;
+    border: 1.5px solid #cab342;
     cursor: pointer;
 }
 .left{

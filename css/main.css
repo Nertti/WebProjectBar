@@ -16,6 +16,7 @@
 .but_next{
     color: #cab342;
     text-decoration: none;
+    transition: 1s;
 }
 .but_next:hover{
     color: #82a044;
