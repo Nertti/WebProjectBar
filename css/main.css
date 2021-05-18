@@ -1,0 +1,23 @@
+.main{
+    width: 1000px;
+    margin: auto;
+}
+.menu{
+    display: flex;
+}
+.title_menu{
+    color: #fffefa;
+    font-size: 30px;
+}
+.menu_card{
+    width: 300px;
+    margin: 20px auto;
+}
+.but_next{
+    color: #cab342;
+    text-decoration: none;
+}
+.but_next:hover{
+    color: #82a044;
+    cursor: pointer;
+}
