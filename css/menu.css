@@ -1,0 +1,28 @@
+.main_menu{
+    padding: 10px 0;
+    width: 1000px;
+    margin: auto;
+    border: 1px solid #cab342;
+}
+.tit{
+    font-size: 30px;
+    color: #fffefa;
+    text-align: center;
+    margin: 5px auto;
+}
+.menu{
+    display: flex;
+}
+.card_menu{
+    width: 300px;
+    margin: auto;
+}
+.main_menu_2{
+    padding: 10px 0;
+    width: 1000px;
+    margin: auto;
+    border: 1px solid transparent;
+}
+.card_menu img{
+    padding-top: 20px;
+}
