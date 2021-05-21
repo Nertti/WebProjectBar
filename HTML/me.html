@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../css/hf.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../css/me.css">
+  <script src="../js/1.js"></script>
 </head>
 <body>
 <div class="j">
@@ -29,7 +30,18 @@
     <div class="text">
       <p class="head">О нас</p>
       <p>Ты давно не видел друзей, а работа уже припёрла к горлу? В твоей голове постоянно крутиться мысль о том, что нужен отдых? ВСЕ ДЕЛО В ВЫХОДНЫХ! Ведь именно в это время НАШ БАР дарит бурю незабываемых эмоций на неделю вперед!</p>
-<!--      <p></p>-->
+      <div class="forma">
+        <p class="head2">Подписаться на новости</p>
+        <form id="form_id" method="post">
+          <input id="email" class="input" name="email" type="email" placeholder=" Введите эл.почту*"><br><br>
+          <div onclick="javascript:return validate('form_id','email');" class="btn-three-2 btn-2">
+            <span>Подтвердить</span>
+          </div>
+          <p style="color: #cab342;" id="q3">Вы подписались на новоcти</p>
+          <p style="color: #4a4c4b;" id="q4">Введите корректную информацию</p>
+
+        </form>
+      </div>
     </div>
   </div>
 
