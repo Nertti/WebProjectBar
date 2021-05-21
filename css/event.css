@@ -1,0 +1,19 @@
+.main{
+    position: relative;
+    width: 1000px;
+    margin: 20px auto;
+}
+.block{
+    margin: 50px auto;
+    display: flex;
+}
+.head{
+    margin: 10px auto;
+    font-size: 40px;
+    color: #fffefa;
+}
+.text{
+    text-align: justify;
+    width: 300px;
+    margin: 0 auto;
+}

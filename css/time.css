@@ -1,0 +1,40 @@
+.table {
+    width: 500px;
+    margin: 0 auto;
+    border: none;
+}
+.center{
+    width: 500px;
+    margin: auto;
+}
+.table thead th {
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    background: #cab342;
+    font-size: 14px;
+    border-left: 1px solid #cab342;
+    border-right: 1px solid #cab342;
+}
+.table tbody td {
+    text-align: left;
+    border-left: 1px solid #cab342;
+    border-right: 1px solid #cab342;
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align: top;
+    border-bottom: none;
+}
+.table thead tr th:first-child, .table tbody tr td:first-child {
+    border-left: none;
+}
+.table thead tr th:last-child, .table tbody tr td:last-child {
+    border-right: none;
+}
+.table tbody tr:nth-child(even){
+    background: #cab342;
+}
+.table tbody tr:nth-child(odd){
+    color: #cab342;
+}

@@ -1,0 +1,12 @@
+.main_info{
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+}
+.head{
+    font-size: 40px;
+}
+.text{
+    width: 350px;
+    margin: 10px auto;
+}
